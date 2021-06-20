@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px; 
+    box-sizing: border-box;  
+  }
+#body{
+    background-color: rgb(0, 82, 82);
+}
+#image{
+    margin: 40px;
+    position: relative;
+}
+#heading{
+    color: wheat;
+    text-align: center;
+    font-family: CustomFont;
+    font-size: 150px;
+}
+#main{
+    width: 60%;
+    margin: auto;
+}
+#main input,button{
+    width:75%;
+    border: 2px solid black;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: transparent;
+    color: black;
+}
+#main input{
+    background-color: black;
+    color: white;
+}
+#main button{
+    width: 25%;
+    background:black;
+    color: white;
+    float: right;
+    border-left: 0px;
+}
+#main button:hover{
+    opacity: 0.8;
+}
+#main input:hover{
+    opacity: 0.8;
+}
+#main input:focus{
+    outline: none;
+}
+#output{
+    text-align: center;
+}
+div#container{
+    margin-left: 10%;
+    font-size: 17px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    max-width: 80%;
+    max-height: 100%;
+    padding-bottom: 30px;
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url(assets/fonts/CustomFont.otf);
+    font-size: xx-large;
+    font-style: normal;
+}
