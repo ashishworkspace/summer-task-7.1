@@ -11,7 +11,7 @@
     position: relative;
 }
 #heading{
-    color: wheat;
+    color: black;
     text-align: center;
     font-family: CustomFont;
     font-size: 150px;
@@ -64,7 +64,7 @@ div#container{
 }
 @font-face {
     font-family: "CustomFont";
-    src: url(assets/fonts/CustomFont.otf);
-    font-size: xx-large;
+    src: url(assets/fonts/AvalonURWTMed.ttf);
+    font-size: large;
     font-style: normal;
 }
